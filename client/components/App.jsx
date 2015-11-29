@@ -1,5 +1,30 @@
+const {
+  Paper,
+  List,
+  ListItem,
+  ListDivider,
+  Avatar,
+  RaisedButton,
+  AppBar,
+  FlatButton,
+  IconButton,
+  NavigationClose
+} = mui;
+
+const ThemeManager = new mui.Styles.ThemeManager();
+
 App = React.createClass({
   mixins: [ReactMeteorData],
+
+  childContextTypes: {
+    muiTheme: React.PropTypes.object
+  },
+
+  getChildContext: function() {
+    return {
+      muiTheme: ThemeManager.getCurrentTheme()
+    };
+  },
 
   getMeteorData() {
     return {
@@ -23,13 +48,15 @@ App = React.createClass({
 
   render() {
     return (
-      <div className="container">
-        <header>
-          <h1>JBLYR</h1>
-        </header>
-        <ul>
-          {this.renderJobs()}
-        </ul>
+      <div className="wrapper">
+        <AppBar
+          title="Github Jobs" />
+
+        <div className="container">
+          <List subheader="Latest Github Jobs">
+            {this.renderJobs()}
+          </List>
+        </div>
       </div>
     );
   }

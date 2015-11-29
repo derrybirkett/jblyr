@@ -22,3 +22,8 @@ react
 mquandalle:jade
 http
 coffeescript
+meteorhacks:npm
+cosmos:browserify
+
+
+npm-container
