@@ -6,11 +6,7 @@ Here is a detailed breakdown of this file
 https://medium.com/@derrybirkett/how-to-code-a-quick-job-board-with-react-meteor-and-material-ui-d4ab3b619ec3
 
 ## Shout me a coffee
-If you found this Repo useful you could offer me a coffee! I will be so happy!
-
-**If you are using this repo, please 'star' this project**. It's a simple way for me to be able to see how many people are using this.
-
-If you ***love*** this repo, why not shout me a coffee ☕️ via [PayPal](https://www.paypal.me/derrybirkett/5) to share the love! It will make my day!
+If you found this Repo useful you could offer me a coffee! I will be so happy! ☕️ via [PayPal](https://www.paypal.me/derrybirkett/5) 
 
 <a href="https://www.paypal.me/derrybirkett/5">
   <img width="160" height="41" src=".images/paypal-badge.png" >
